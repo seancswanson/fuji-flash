@@ -1,0 +1,497 @@
+[
+  {
+    "phrase_en": "Hello/ Hi!",
+    "phrase_jp": "Kon'ichiwa/ Yaa.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Good morning!",
+    "phrase_jp": "Ohayou gozaimasu.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Good evening!",
+    "phrase_jp": "Konbanwa!",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Welcome! (to greet someone)",
+    "phrase_jp": "Youkoso irasshai mashita.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "How are you?",
+    "phrase_jp": "Ogenki desuka?",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "I'm fine",
+    "phrase_jp": "thanks!",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "And you?",
+    "phrase_jp": "Anatawa?",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Good/ So-so",
+    "phrase_jp": "Genki desu/ maa-maa desu.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Thank you (very much)!",
+    "phrase_jp": "Arigatou!",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "You're welcome! (for \"thank you\")",
+    "phrase_jp": "Dou itashi mashite.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "I missed you so much!",
+    "phrase_jp": "Samishi katta desu.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "What's new?",
+    "phrase_jp": "Saikin dou desuka?",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Nothing much.",
+    "phrase_jp": "Kawari nai desu.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Good night!",
+    "phrase_jp": "Oyasumi desu.",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "See you later!",
+    "phrase_jp": "Mata atode aimashou!",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "Good bye!",
+    "phrase_jp": "Sayonara!",
+    "category": "Greetings"
+  },
+  {
+    "phrase_en": "I'm lost.",
+    "phrase_jp": "Mayotte shimai mashita.",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Can I help you?",
+    "phrase_jp": "Otetsudai shimashouka?",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Can you help me?",
+    "phrase_jp": "Tetsudatte kuremasuka?",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Where is the (bathroom/pharmacy)?",
+    "phrase_jp": "(Toire/yakkyoku) wa doko desuka?",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Go straight! Then turn (left/ right).",
+    "phrase_jp": "Massugu itte kudasai. Soshite",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "I'm looking for John.",
+    "phrase_jp": "John wo sagashite imasu.",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "One moment please!",
+    "phrase_jp": "Chotto matte kudasai.",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Hold on please! (phone)",
+    "phrase_jp": "Chotto matte kudasai.",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "How much is this?",
+    "phrase_jp": "Kore wa ikura desuka?",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Excuse me...! (to ask for something)",
+    "phrase_jp": "Sumimasen!",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Excuse me! (to pass by)",
+    "phrase_jp": "Sumimasen!",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Come with me!",
+    "phrase_jp": "Watashi to issho ni kite kudasai.",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Do you speak (English/ Japanese)?",
+    "phrase_jp": "Anata wa (eigo/ nihongo) wo hanashimasu ka?",
+    "category": "Asking for Help and Directions"
+  },
+  {
+    "phrase_en": "Just a little.",
+    "phrase_jp": "Sukoshi dake.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "What's your name?",
+    "phrase_jp": "Namae wa nadesu ka?",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "My name is...",
+    "phrase_jp": "Watashi no namae wa....",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Nice to meet you!",
+    "phrase_jp": "Hajimemashite! (or) Oai dekite ureshii desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "You're very kind!",
+    "phrase_jp": "Anata wa totemo shinsetsu desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Where are you from?",
+    "phrase_jp": "Doko no shussin desu ka?",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I'm from the (U.S./ Japan).",
+    "phrase_jp": "(Amerika/ Nihon) kara desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I'm American.",
+    "phrase_jp": "Watashi wa Amerika jin desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Where do you live?",
+    "phrase_jp": "Doko ni sun de imasu ka?",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I live in the (U.S./ Japan).",
+    "phrase_jp": "Watashi wa (amerika/ nihon) ni sundeimasu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Do you like it here?",
+    "phrase_jp": "Kokowa suki ni narimashita ka?",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Japan is a wonderful country.",
+    "phrase_jp": "Nihon ha subarashii kuni desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "What do you do for a living?",
+    "phrase_jp": "Osigoto wa nandesu ka?",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I like Japanese.",
+    "phrase_jp": "Watashi wa nihongo ga suki desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I've been learning Japanese for one month.",
+    "phrase_jp": "Watashi wa nihongo wo ichikagetu narrate imasu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Oh! That's good!",
+    "phrase_jp": "Sorewa iidesu ne.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "How old are you?",
+    "phrase_jp": "Toshi wa ikutsu desu ka?",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I'm (twenty/ thirty...) years old.",
+    "phrase_jp": "Watashi wa (20,30) sai desu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I have to go.",
+    "phrase_jp": "Ikanakutewa narimasen.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "I will be right back!",
+    "phrase_jp": "Sugu modori masu.",
+    "category": "Conversation and Interests"
+  },
+  {
+    "phrase_en": "Good luck!",
+    "phrase_jp": "Ganbatte ne!",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Happy birthday!",
+    "phrase_jp": "Tanjyoubi omedetou gozaimasu!",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Happy New Year!",
+    "phrase_jp": "Akemashite omedetou gozaimasu.",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Merry Christmas!",
+    "phrase_jp": "Merri Kurisumasu!",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Congratulations!",
+    "phrase_jp": "Omedetou!",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Enjoy! (for meals...)",
+    "phrase_jp": "(noun",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "I'd like to visit Japan one day.",
+    "phrase_jp": "Ituka nihon wo otozure tai.",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Say hi to John for me.",
+    "phrase_jp": "John ni yoroshiku to tsutaete kudasai.",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Bless you. (when sneezing)",
+    "phrase_jp": "Odaiji ni.",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "Good night and sweet dreams!",
+    "phrase_jp": "Oyasumi nasai.",
+    "category": "Wish Someone Well"
+  },
+  {
+    "phrase_en": "I'm sorry! (if you don't hear something)",
+    "phrase_jp": "Sumimasen.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "Sorry! (for a mistake)",
+    "phrase_jp": "Gomenasai.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "No problem!",
+    "phrase_jp": "Daijyoubu desu.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "Can you say it again?",
+    "phrase_jp": "Mouchido itte kuremasuka?",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "Can you speak slowly?",
+    "phrase_jp": "Yukkuri shabette kuremasuka?",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "Write it down please!",
+    "phrase_jp": "Kaite kudasai.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "I don't understand!",
+    "phrase_jp": "Wakarimasen.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "I don't know!",
+    "phrase_jp": "Shirimasen.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "I have no idea.",
+    "phrase_jp": "Wakarimasen.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "What's that called in Japanese?",
+    "phrase_jp": "Arewa nihongo de nanto iimasu ka?",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "How do you say 'please' in Japanese?",
+    "phrase_jp": "'Please' wa nihongo de nato iimasu ka?",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "What is this?",
+    "phrase_jp": "Korewa nadesu ka?",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "My Japanese is bad.",
+    "phrase_jp": "Watashi no nihongo heta desu.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "I need to practice my Japanese.",
+    "phrase_jp": "Nihongo ro renshu suru hitsuyou ga arimasu.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "Don't worry!",
+    "phrase_jp": "Goshinpai naku.",
+    "category": "Solving Misunderstanding"
+  },
+  {
+    "phrase_en": "Good/ Bas/ So-so",
+    "phrase_jp": "Yoi/ Warui/ maa-maa",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Big/ small",
+    "phrase_jp": "Ooki/ chiisai",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Today/ now",
+    "phrase_jp": "Kyou/ ima",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Tomorrow/ yesterday",
+    "phrase_jp": "Ashita/ kinou",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Yes/ no",
+    "phrase_jp": "Hai/ iie",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Here you go! (when giving something)",
+    "phrase_jp": "Hai",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Do you like it?",
+    "phrase_jp": "Suki desu ka?",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "I really like it!",
+    "phrase_jp": "Honto ni suki desu.",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "I'm hungry/ thirsty.",
+    "phrase_jp": "Onaka ga suki masita./ Nodo ga kawaki mashita.",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "In the morning/ evening/ at night",
+    "phrase_jp": "Asa ni/ yuugata ni/ yoru ni",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "(This/ that) (Here/ there)",
+    "phrase_jp": "(Kore/ are) (Koko/ asoko)",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "(Me/ you) (Him/ her)",
+    "phrase_jp": "(Watashi/ anata) (Kare/ kanojyo)",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Really!",
+    "phrase_jp": "Honto!",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Look!",
+    "phrase_jp": "Mite!",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Hurry up!",
+    "phrase_jp": "Isoide!",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "What? Where?",
+    "phrase_jp": "Nani? Doko?",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "What time is it?",
+    "phrase_jp": "Nanji desu ka?",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "It's 10 o'clock. 7:30 P.M.",
+    "phrase_jp": "Jyuji desu. Gogo hichi ji sanjyu pun desu.",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Gie me this!",
+    "phrase_jp": "Kore wo kudasai!",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "I love you!",
+    "phrase_jp": "Daisuki desu./ Anata wo aishite imasu.",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "I feel sick.",
+    "phrase_jp": "Choshi ga warui desu.",
+    "category": ""
+  },
+  {
+    "phrase_en": "I need a doctor.",
+    "phrase_jp": "Byouin ni ikitai.",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "One, two, three",
+    "phrase_jp": "Ichi, ni, san",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Four, five, six",
+    "phrase_jp": "Yon, go, roku",
+    "category": "Japanese Expressions and Words"
+  },
+  {
+    "phrase_en": "Seven, eight, nine, ten",
+    "phrase_jp": "Nana, shichi, hachi, kyuu, jyuu",
+    "category": "Japanese Expressions and Words"
+  }
+]

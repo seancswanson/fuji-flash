@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+// Import the framework
+@import "node_modules/vanilla-framework/scss/vanilla";
+
+// Include all of Vanilla Framework
+@include vanilla;
+
+// Font classes
+.noto-sans {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.noto-serif {
+  font-family: "Noto Serif JP", serif;
+}
+
+.m-plus {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}

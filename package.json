@@ -20,6 +20,8 @@
     "@angular/router": "~13.1.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
+    "vanilla-framework": "^2.37.1",
+    "wanakana": "^4.0.2",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
