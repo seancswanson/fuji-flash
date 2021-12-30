@@ -5,7 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Acknowledgments
 
 - [Hiragana & Katakana JSON files from @shlchoi](https://github.com/shlchoi/kana)
-- [Mt. Fuji Icon extended from flaticon](www.flaticon.com)
+- [Mt. Fuji Icon extended from flaticon](https://www.flaticon.com/free-icon/fuji-mountain_774829)
+- [Mt. Fuji Icon 2 extended from flaticon](https://www.flaticon.com/free-icon/fuji-mountain_184226)
+- [Sakura User Icon extended from flaticon](https://www.flaticon.com/free-icon/sakura_3737581)
 - [wanakana transliteration service](https://github.com/WaniKani/WanaKana)
 - [Common phrases extended from Quizlet](https://quizlet.com/8903532/learn-common-japanese-phrases-flash-cards/?isSetPageSignup=1)
 

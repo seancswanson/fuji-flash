@@ -1,0 +1,76 @@
+<header id="navigation" class="p-navigation">
+  <div class="row p-navigation__row">
+    <div class="p-navigation__banner">
+      <div class="p-navigation__logo">
+        <a class="p-navigation__item nav-logo-wrapper" href="#">
+          <img
+            src="../../assets/img/fuji-mountain-1.png"
+            alt="fuji flash logo"
+            class="p-navigation__image"
+          />
+          <div class="logo-titles">
+            <div class="top">fuji flash</div>
+            <div class="bottom m-plus">富士フラッシュ</div>
+          </div>
+        </a>
+      </div>
+      <a href="#navigation" class="p-navigation__toggle--open" title="menu"
+        >Menu</a
+      >
+      <a
+        href="#navigation-closed"
+        class="p-navigation__toggle--close"
+        title="close menu"
+        >Close menu</a
+      >
+    </div>
+    <nav
+      class="p-navigation__nav u-align--right"
+      aria-label="Example main navigation"
+    >
+      <span class="u-off-screen">
+        <a href="#main-content">Jump to main content</a>
+      </span>
+      <ul class="p-navigation__items">
+        <li
+          class="p-navigation__item--dropdown-toggle"
+          [ngClass]="{ 'is-active': dropdownActive }"
+          id="link-1"
+          [attr.aria-hidden]="dropdownActive"
+          (mouseenter)="toggleNavsDropdownMenu($event)"
+          (mouseleave)="toggleNavsDropdownMenu($event)"
+        >
+          <a href="#" aria-controls="study-menu" class="p-navigation__link"
+            >Study</a
+          >
+          <ul class="p-navigation__dropdown" id="study-menu">
+            <li>
+              <a href="#" class="p-navigation__dropdown-item">Flash Cards</a>
+            </li>
+            <li>
+              <a href="#" class="p-navigation__dropdown-item">Kana Tables</a>
+            </li>
+            <li>
+              <a href="#" class="p-navigation__dropdown-item">Name -> Kana</a>
+            </li>
+          </ul>
+        </li>
+        <li class="p-navigation__item">
+          <a href="#" class="p-navigation__link">How does it work?</a>
+        </li>
+      </ul>
+      <ul class="p-navigation__items u-image-position--right">
+        <li class="p-navigation__item">
+          <a href="#" class="p-navigation__link user-link">
+            <img
+              src="../../assets/img/sakura.png"
+              class="user-icon"
+              alt="user icon"
+            />
+            Sean</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

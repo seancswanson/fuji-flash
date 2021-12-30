@@ -1,9 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "settings";
+
 // Import the framework
 @import "node_modules/vanilla-framework/scss/vanilla";
 
 // Include all of Vanilla Framework
 @include vanilla;
+
+html {
+  padding: 10px;
+  background-color: #f395c4;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+body {
+  background: #fff;
+}
 
 // Font classes
 .noto-sans {

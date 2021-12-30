@@ -1,0 +1,49 @@
+@import "../../settings";
+
+header {
+  border-radius: $app-border-radius;
+}
+
+.nav-logo-wrapper {
+  align-items: center;
+}
+
+.p-navigation__image {
+  max-height: 4rem;
+  margin-right: 4px;
+}
+
+.p-navigation__items {
+  > li {
+    border-top: 2px solid transparent;
+    transition: all 0.3s;
+
+    &:hover {
+      border-top: 2px solid $color-accent;
+    }
+  }
+}
+
+.p-navigation__dropdown-item {
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  transition: all 0.3s;
+
+  &:hover {
+    border-left: 2px solid $color-accent;
+    border-right: 2px solid $color-accent;
+  }
+}
+
+.user-link {
+  display: flex;
+}
+
+.user-icon {
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 50%;
+  padding: 2px;
+  max-width: 25px;
+  margin-right: 4px;
+}
