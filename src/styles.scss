@@ -7,15 +7,19 @@
 // Include all of Vanilla Framework
 @include vanilla;
 
-html {
-  padding: 10px;
-  background-color: #f395c4;
+body {
+  padding: 5px;
+  background-color: #fcfcfc;
   background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-size: 10px;
+  transition: padding 0.3s ease;
 }
 
-body {
-  background: #fff;
+@media /* Fairly small screens including iphones */ only screen and (max-width: 500px),
+  /* iPads */ only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    padding: 0;
+  }
 }
 
 // Font classes

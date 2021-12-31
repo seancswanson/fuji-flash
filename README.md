@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Acknowledgments
 
 - [Hiragana & Katakana JSON files from @shlchoi](https://github.com/shlchoi/kana)
+- [Flat people illustrations from @icons8](https://icons8.com/illustrations/author/602a6c5b01d0363186d3d950)
 - [Mt. Fuji Icon extended from flaticon](https://www.flaticon.com/free-icon/fuji-mountain_774829)
 - [Mt. Fuji Icon 2 extended from flaticon](https://www.flaticon.com/free-icon/fuji-mountain_184226)
 - [Sakura User Icon extended from flaticon](https://www.flaticon.com/free-icon/sakura_3737581)

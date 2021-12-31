@@ -4,7 +4,7 @@
       <div class="p-navigation__logo">
         <a class="p-navigation__item nav-logo-wrapper" href="#">
           <img
-            src="../../assets/img/fuji-mountain-1.png"
+            src="../../assets/img/fuji-mountain-1-flash.png"
             alt="fuji flash logo"
             class="p-navigation__image"
           />
@@ -15,13 +15,13 @@
         </a>
       </div>
       <a href="#navigation" class="p-navigation__toggle--open" title="menu"
-        >Menu</a
+        >&#8801;</a
       >
       <a
         href="#navigation-closed"
         class="p-navigation__toggle--close"
         title="close menu"
-        >Close menu</a
+        >&times;</a
       >
     </div>
     <nav
@@ -40,7 +40,10 @@
           (mouseenter)="toggleNavsDropdownMenu($event)"
           (mouseleave)="toggleNavsDropdownMenu($event)"
         >
-          <a href="#" aria-controls="study-menu" class="p-navigation__link"
+          <a
+            href="#"
+            aria-controls="study-menu"
+            class="p-navigation__link nav-link-expandable"
             >Study</a
           >
           <ul class="p-navigation__dropdown" id="study-menu">
