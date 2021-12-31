@@ -2,7 +2,7 @@
   <div class="row p-navigation__row">
     <div class="p-navigation__banner">
       <div class="p-navigation__logo">
-        <a class="p-navigation__item nav-logo-wrapper" href="#">
+        <a class="p-navigation__item nav-logo-wrapper" routerLink="/home">
           <img
             src="../../assets/img/fuji-mountain-1-flash.png"
             alt="fuji flash logo"
@@ -41,20 +41,32 @@
           (mouseleave)="toggleNavsDropdownMenu($event)"
         >
           <a
-            href="#"
+            routerLink="/study"
             aria-controls="study-menu"
             class="p-navigation__link nav-link-expandable"
             >Study</a
           >
           <ul class="p-navigation__dropdown" id="study-menu">
             <li>
-              <a href="#" class="p-navigation__dropdown-item">Flash Cards</a>
+              <a
+                routerLink="/study/flash-cards"
+                class="p-navigation__dropdown-item"
+                >Flash Cards</a
+              >
             </li>
             <li>
-              <a href="#" class="p-navigation__dropdown-item">Kana Tables</a>
+              <a
+                routerLink="/study/kana-tables"
+                class="p-navigation__dropdown-item"
+                >Kana Tables</a
+              >
             </li>
             <li>
-              <a href="#" class="p-navigation__dropdown-item">Name -> Kana</a>
+              <a
+                routerLink="/study/name-to-kana"
+                class="p-navigation__dropdown-item"
+                >Name -> Kana</a
+              >
             </li>
           </ul>
         </li>

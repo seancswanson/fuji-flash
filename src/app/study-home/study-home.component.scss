@@ -1,0 +1,42 @@
+@import "../../settings";
+
+.p-matrix {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.p-matrix__title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.p-matrix__item {
+  padding: 1rem;
+  border: 2px dotted transparent;
+
+  transition: all 0.2s;
+
+  &:nth-of-type(2),
+  &:nth-of-type(3) {
+    border-left: 2px solid #eee;
+
+    @media only screen and (max-width: 619px) {
+      border-left: 2px dotted transparent;
+      border-top: 2px solid #eee;
+    }
+  }
+
+  &:hover {
+    border: 2px solid $color-accent-light;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  }
+
+  a {
+    color: initial;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
