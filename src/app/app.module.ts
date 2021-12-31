@@ -13,6 +13,7 @@ import { NameToKanaComponent } from './name-to-kana/name-to-kana.component';
 import { StudyHomeComponent } from './study-home/study-home.component';
 import { WhyLearnComponent } from './why-learn/why-learn.component';
 import { HowDoesItWorkComponent } from './how-does-it-work/how-does-it-work.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,13 +27,10 @@ import { HowDoesItWorkComponent } from './how-does-it-work/how-does-it-work.comp
     NameToKanaComponent,
     StudyHomeComponent,
     WhyLearnComponent,
-    HowDoesItWorkComponent
+    HowDoesItWorkComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
