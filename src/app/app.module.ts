@@ -11,6 +11,7 @@ import { FlashCardsComponent } from './flash-cards/flash-cards.component';
 import { KanaTablesComponent } from './kana-tables/kana-tables.component';
 import { NameToKanaComponent } from './name-to-kana/name-to-kana.component';
 import { StudyHomeComponent } from './study-home/study-home.component';
+import { WhyLearnComponent } from './why-learn/why-learn.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { StudyHomeComponent } from './study-home/study-home.component';
     FlashCardsComponent,
     KanaTablesComponent,
     NameToKanaComponent,
-    StudyHomeComponent
+    StudyHomeComponent,
+    WhyLearnComponent
   ],
   imports: [
     BrowserModule,
