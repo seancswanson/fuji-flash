@@ -12,6 +12,7 @@ import { KanaTablesComponent } from './kana-tables/kana-tables.component';
 import { NameToKanaComponent } from './name-to-kana/name-to-kana.component';
 import { StudyHomeComponent } from './study-home/study-home.component';
 import { WhyLearnComponent } from './why-learn/why-learn.component';
+import { HowDoesItWorkComponent } from './how-does-it-work/how-does-it-work.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { WhyLearnComponent } from './why-learn/why-learn.component';
     KanaTablesComponent,
     NameToKanaComponent,
     StudyHomeComponent,
-    WhyLearnComponent
+    WhyLearnComponent,
+    HowDoesItWorkComponent
   ],
   imports: [
     BrowserModule,

@@ -6,14 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
+  menuDropdownActive: boolean = false;
   dropdownActive: boolean = false;
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  public toggleNavsDropdownMenu(e: Event) {
+  public toggleNavsDropdownItems(e: Event) {
     console.log(e.target);
     this.dropdownActive = !this.dropdownActive;
+  }
+
+  public toggleMenuDropdown(e: Event) {
+    console.log(e.target);
+    this.menuDropdownActive = !this.menuDropdownActive;
   }
 }

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FlashCardsComponent } from './flash-cards/flash-cards.component';
 import { HomeComponent } from './home/home.component';
+import { HowDoesItWorkComponent } from './how-does-it-work/how-does-it-work.component';
 import { KanaTablesComponent } from './kana-tables/kana-tables.component';
 import { NameToKanaComponent } from './name-to-kana/name-to-kana.component';
 import { StudyHomeComponent } from './study-home/study-home.component';
@@ -35,8 +36,9 @@ const routes: Routes = [
       },
     ],
   },
+  { path: 'how-does-it-work', component: HowDoesItWorkComponent },
   { path: 'why-learn-a-language', component: WhyLearnComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  // { path: '', redirectTo: '/home', pathMatch: 'prefix' },
 ];
 
 @NgModule({

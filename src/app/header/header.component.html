@@ -14,18 +14,21 @@
           </div>
         </a>
       </div>
-      <a href="#navigation" class="p-navigation__toggle--open" title="menu"
-        >&#8801;</a
+      <button
+        class="hamburger hamburger--spring"
+        [ngClass]="{ 'is-active': menuDropdownActive }"
+        type="button"
+        (click)="toggleMenuDropdown($event)"
       >
-      <a
-        href="#navigation-closed"
-        class="p-navigation__toggle--close"
-        title="close menu"
-        >&times;</a
-      >
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
     </div>
     <nav
       class="p-navigation__nav u-align--right"
+      [ngStyle]="{ display: menuDropdownActive ? 'flex' : 'none' }"
+      [ngClass]="{ 'nav-mobile': menuDropdownActive }"
       aria-label="Example main navigation"
     >
       <span class="u-off-screen">
@@ -37,8 +40,8 @@
           [ngClass]="{ 'is-active': dropdownActive }"
           id="link-1"
           [attr.aria-hidden]="dropdownActive"
-          (mouseenter)="toggleNavsDropdownMenu($event)"
-          (mouseleave)="toggleNavsDropdownMenu($event)"
+          (mouseenter)="toggleNavsDropdownItems($event)"
+          (mouseleave)="toggleNavsDropdownItems($event)"
         >
           <a
             routerLink="/study"
@@ -71,7 +74,9 @@
           </ul>
         </li>
         <li class="p-navigation__item">
-          <a href="#" class="p-navigation__link">How does it work?</a>
+          <a routerLink="how-does-it-work" class="p-navigation__link"
+            >How does it work?</a
+          >
         </li>
         <li class="p-navigation__item">
           <a routerLink="why-learn-a-language" class="p-navigation__link"

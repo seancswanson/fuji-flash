@@ -56,6 +56,32 @@ header {
 
 .nav-link-expandable {
   @media only screen and (max-width: 899px) {
-    margin-right: 12px;
+    padding-right: 45px;
+  }
+}
+
+.p-navigation__nav {
+  @media /* Fairly small screens including iphones */ only screen and (min-width: 906px) {
+    display: flex !important;
+  }
+  @media /* Fairly small screens including iphones */ only screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.hamburger {
+  .hamburger-box {
+    width: 20px;
+    height: 20px;
+
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+      width: 20px;
+      height: 2px;
+    }
+  }
+  @media /* Fairly small screens including iphones */ only screen and (min-width: 900px) {
+    display: none;
   }
 }
