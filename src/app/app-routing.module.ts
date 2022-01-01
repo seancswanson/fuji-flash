@@ -38,7 +38,7 @@ const routes: Routes = [
   },
   { path: 'how-does-it-work', component: HowDoesItWorkComponent },
   { path: 'why-learn-a-language', component: WhyLearnComponent },
-  // { path: '', redirectTo: '/home', pathMatch: 'prefix' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
